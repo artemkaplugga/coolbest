@@ -1,0 +1,22 @@
+.hero-section {
+    text-align: center;
+    padding: 60px 0;
+    background: linear-gradient(180deg, rgba(30, 32, 40, 0.5) 0%, rgba(15, 16, 20, 0.5) 100%);
+    margin: 20px 0;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #fff, #4facfe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 768px) {
+    .hero-text h1 {
+        font-size: 36px;
+    }
+} 
